@@ -1,0 +1,386 @@
+.azeret-mono {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+
+
+#hero {
+  height: 586px;
+  background-image: url("../assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto, top;
+  /* background-position: top left , right bottom; */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20%;
+}
+
+#hero.hero-container {
+  width: 1109px;
+
+  /* margin: 0 auto; */
+}
+
+#hero .hero-container .title {
+  color: rgb(13, 19, 33);
+  /* font-family: Azeret Mono; */
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.subtitle {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.btn {
+  padding: 14px 18px 14px 18px;
+  border-radius: 8px;
+
+  background: rgb(13, 19, 33);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.btn-1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-box img {
+  display: inline-block;
+}
+.img-box {
+  text-align: center;
+  margin-top: 20%;  
+}
+
+.in-title{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 3%;
+}
+
+.headline {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.peace {
+  color: rgb(13, 19, 33);
+  /* font-family: Azeret Mono; */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  justify-content: center;
+  padding: 20px;
+}
+
+ 
+
+
+.flex {
+  display: flex;
+
+  /* display: block; */
+  /* margin-top: 20%; */
+}
+.bnt-size {
+  /* box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7; */
+
+  color: rgb(13, 19, 33);
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+  background-color: white;
+  border: 2% solid blue;
+  display: inline;
+  opacity: 100%;
+}
+
+.style-border {
+  border-radius: 16px;
+
+  background: aquamarine;
+}
+
+.margin-boder {
+  margin: 20px;
+}
+
+
+.crop{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.p-style{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.size-video{
+  height: 686px;
+  width: 1109px;
+}
+
+.font-h{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.fl
+.font-p{
+  color: purple;
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+
+.id-hero .Header-body{
+  color:rgb(13, 19, 33);
+  font-size:28px;
+  font-weight: 800;
+  margin-right:20px;
+}
+
+.id-hero{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.Header-body{
+  display:flex;
+  justify-content: start;
+}
+.bnt-c{
+  display: flex;
+  justify-content: end;
+}
+
+.skill-con{
+  display: flex;
+  gap: 10%;
+}
+
+.main-color{
+  background-color: white;
+}
+
+.skills{
+  background-color: rgba(255, 76, 30, 0.05);
+  Width: 364px;
+Height: 300px;
+border-radius: 16px;
+/* Top: 0px;
+Left: 0px;
+Fillet radius: 16px;
+
+Layout padding: 40px, 40px, 40px, 40px;
+Layout distribution: Concentrated distribution;
+Layer mode :Pass through; */
+}
+
+.code{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  
+}
+
+.last-parant{
+  margin-top: 10%;
+ 
+}
+.header-child{
+
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+}
+.div-parant{
+  margin-bottom: 10%;
+}
+.charset-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.id{
+  display: inline;
+}
+.class{
+  border: none;
+ 
+  
+}
+
+.inline{
+  
+  flex-direction: column;
+}
+
+.parant{
+   margin-top : 50px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom:20px ;]
+  display: flex;
+}
+
+.why{
+  background-color:aliceblue;
+  padding: 30px;
+  margin-bottom: 20px ;
+}
+
+.end-img{
+  background-image: url('/assets/handshake.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20%;
+  width: auto;
+  height: 314px;
+  margin:auto;
+}
+
+.end-headline{
+  color: rgb(255, 255, 255);
+  font-size:32px;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+.p-desing{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.desing-input{
+  padding: 10px 5px 10px 5px;
+  margin-right: 16px;
+}
+
+.parant-control{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.desing-btn{
+  color:rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 60;
+  padding-top:2px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px ;
+}
+.l{
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around ;
+  background-color: rgba(13, 19, 33, 0.03);
+}
+
+.next{
+  display: flex;
+  align-items: center;
+}
+
+.tex{
+  text-decoration: none;
+
+}
+
+.card{
+  display: flex;
+}
+
+.js{
+  text-decoration: none;
+}
+.setup{
+  display: flex;
+}
